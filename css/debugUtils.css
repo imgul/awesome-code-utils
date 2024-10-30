@@ -1,0 +1,155 @@
+/* debugUtils.css */
+
+/* Basic Borders */
+.debug-border {
+    border: 2px solid #f39c12 !important;
+}
+.debug-border-red {
+    border: 2px solid #e74c3c !important;
+}
+.debug-border-green {
+    border: 2px solid #2ecc71 !important;
+}
+.debug-border-blue {
+    border: 2px solid #3498db !important;
+}
+.debug-border-dashed {
+    border: 2px dashed #9b59b6 !important;
+}
+
+/* Background Highlights */
+.debug-bg-yellow {
+    background-color: rgba(241, 196, 15, 0.3) !important;
+}
+.debug-bg-red {
+    background-color: rgba(231, 76, 60, 0.3) !important;
+}
+.debug-bg-green {
+    background-color: rgba(46, 204, 113, 0.3) !important;
+}
+.debug-bg-blue {
+    background-color: rgba(52, 152, 219, 0.3) !important;
+}
+.debug-bg-purple {
+    background-color: rgba(155, 89, 182, 0.3) !important;
+}
+
+/* Layout Visualization */
+.debug-margin {
+    outline: 1px solid #ff6347;
+}
+.debug-padding {
+    outline: 1px dashed #1abc9c;
+}
+.debug-full-width {
+    width: 100% !important;
+    outline: 2px solid #2ecc71;
+}
+
+/* Text & Size */
+.debug-font-bold {
+    font-weight: bold !important;
+}
+.debug-font-italic {
+    font-style: italic !important;
+}
+.debug-text-large {
+    font-size: 1.25rem !important;
+}
+.debug-text-small {
+    font-size: 0.75rem !important;
+}
+
+/* Flexbox & Alignment Helpers */
+.debug-flex {
+    display: flex !important;
+    outline: 1px dashed #34495e;
+}
+.debug-flex-center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    outline: 1px dashed #34495e;
+}
+.debug-flex-space-between {
+    display: flex !important;
+    justify-content: space-between !important;
+    outline: 1px dashed #34495e;
+}
+
+/* Position Debugging */
+.debug-relative {
+    position: relative !important;
+    outline: 1px dotted #8e44ad;
+}
+.debug-absolute {
+    position: absolute !important;
+    outline: 1px dotted #e67e22;
+}
+.debug-fixed {
+    position: fixed !important;
+    outline: 1px dotted #c0392b;
+}
+
+/* Overflow and Scroll */
+.debug-overflow {
+    overflow: auto !important;
+    outline: 1px dashed #3498db;
+}
+.debug-scrollable {
+    overflow-y: scroll !important;
+    max-height: 300px !important;
+    border: 1px solid #e74c3c;
+}
+
+/* Z-index visualization */
+.debug-z-index {
+    z-index: 999 !important;
+    background-color: rgba(231, 76, 60, 0.1) !important;
+    outline: 1px solid #e74c3c;
+}
+
+/* Opacity and Visibility */
+.debug-opacity-50 {
+    opacity: 0.5 !important;
+}
+.debug-visible {
+    visibility: visible !important;
+}
+.debug-hidden {
+    visibility: hidden !important;
+}
+
+/* Debugging Grid */
+.debug-grid {
+    display: grid !important;
+    outline: 1px solid #3498db;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.debug-grid-columns-3 {
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+.debug-grid-gap-large {
+    gap: 20px !important;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 600px) {
+    .debug-responsive {
+        border: 1px solid #9b59b6;
+        background-color: rgba(155, 89, 182, 0.2);
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .debug-responsive {
+        border: 1px solid #3498db;
+        background-color: rgba(52, 152, 219, 0.2);
+    }
+}
+@media (min-width: 1025px) {
+    .debug-responsive {
+        border: 1px solid #2ecc71;
+        background-color: rgba(46, 204, 113, 0.2);
+    }
+}
