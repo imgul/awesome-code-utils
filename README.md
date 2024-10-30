@@ -56,18 +56,18 @@ A set of utility functions for PHP, JavaScript, and CSS to streamline debugging,
 
 2. Add the URL to your CSS or HTML file:
     #### In CSS File:
-        ```css
-        /* Place this line at the top of your CSS file */
-        @import url("https://gist.githubusercontent.com/username/gist_id/raw/debugUtils.css");
-        ```
+    ```css
+    /* Place this line at the top of your CSS file */
+    @import url("https://gist.githubusercontent.com/username/gist_id/raw/debugUtils.css");
+    ```
 
     #### In HTML File:
-        ```html
-            <!-- Place this inside the <head> tag of your HTML file -->
-            <link rel="stylesheet" href="https://gist.githubusercontent.com/username/gist_id/raw/debugUtils.css">
-        ```
+    ```html
+        <!-- Place this inside the <head> tag of your HTML file -->
+        <link rel="stylesheet" href="https://gist.githubusercontent.com/username/gist_id/raw/debugUtils.css">
+    ```
 
     #### Example
-        ```html
-        <div class="debug-border debug-bg-yellow debug-font-bold">Debugging Element</div>
-        ```
+    ```html
+    <div class="debug-border debug-bg-yellow debug-font-bold">Debugging Element</div>
+    ```
